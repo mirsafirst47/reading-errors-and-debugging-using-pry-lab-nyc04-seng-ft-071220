@@ -10,5 +10,5 @@ def state_log(star_date)
 end
 
 def engage
-  "Captain's Log, star date."
+  "Captain's Log, star date #{state_log}."
 end
