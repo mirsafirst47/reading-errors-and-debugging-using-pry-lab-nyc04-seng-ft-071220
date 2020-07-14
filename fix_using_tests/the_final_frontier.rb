@@ -10,6 +10,7 @@ def state_log(star_date)
 end
 
 def engage
-  date = generate_star_date# define the variable prior to the desired output.
+  #date = generate_star_date# define the variable prior to the desired output.
   puts state_log(date)
+  date = generate_star_date
 end
